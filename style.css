@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+div {
+    display: flex;
+}
+
+#container {
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+}
+
+#buttons > * {
+    color: purple;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellow;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+}
+
+#moves {
+    background-color: orange;
+    width: 150px;
+    justify-content: center;
+}
